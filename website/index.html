@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Heath</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+
+<body>
+
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brand font-staat font-size-40">Noah Heath</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about_me" class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+                        <a href="#services" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
+                        <a href="#awards" class="nav-item nav-link text-white-50 font-os font-size-16 active">Achievements</a>
+                        <br><br>
+                    </div>
+                    <div class="d-flex flex-column align-items-center py-5">
+                        <button type="submit" onclick="window.open('./Heath-resume.pdf')" class="btn btn-dark text-uppercase mt-3 mb-3">Download CV</button>
+                        <br><br>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/neheath/" target="_blank" class="mx-2">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/n-e-heath" target="_blank" class="mx-2">
+                                <i class="fab fa-github"></i>
+                                
+                            </a>
+                         </div>
+                         
+                    </div>
+                        
+                            <!--class="nav-item nav-link text-white-50 font-os font-size-16 active" target="blank">Blog</a>
+                        <div class="counter-number nav-item nav-link text-white-50 font-os font-size-16 active">Couldn't
+                            read the counter</div> -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+    </header>
+    <!-- #header area -->
+
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+
+                <!-- site-banner area -->
+                <section class="site-banner bg-light" id="home">
+                    <div class="banner-area">
+                        <div class="counter-number position-absolute top-0 start-50 translate-middle-x">You are viewer</div>
+
+                        <div class="author text-center">
+                            <!--<div class="author-img"></div> -->
+                            <h1 style="font-size: 30px;">WELCOME TO MY DEBUT PORTFOLIO</h1>
+                            <br><br>
+
+                            <h5 class="text-black font-ram font-size-27">I'm a <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- #site-banner area -->
+
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about_me">
+                    <div class="me py-4">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">information</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">About Me</h1>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-5 d-flex justify-content-center align-items-center">
+                            <img src="./banner.png" alt="profile image"  class="img-fluid" style="max-width:100%; height:auto">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-uppercase font-os font-size-16 text-muted">Hello</h6>
+                            <h5 class="font-ram font-size-20 py-2">I'm Noah (some call me Ethan) & I am a<br> <span id="typed_2"></span></h5>
+                            <p class="font-ram text-black-50 py-2">
+                                I'm an enthusiastic professional in the dynamic world of cloud computing. 
+                                With a background in military intelligence analytics, I apply as many of those skills as possible to design different solutions based on different needs.
+                                
+                                My USAF service instilled discipline, adaptability, and teamwork values that make this migration 93% seamless (rough estimate). <br><br>
+                                I am most importantly a proud husband and father of three boys that keep me on my toes at all times. 
+                                You could very well see me on a soccer field, in a CoD lobby, or riding e-scooters with my scooter gang (just my kids). 
+                                
+                                
+                                
+                            </p>
+                            <div class="d-flex flex-row flex-wrap justify-content-between py-2">
+                                <div class="d-flex flex-column">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
+
+                <!-- ability -->
+                <section class="skill px-4 py-5 bg-light" id="services">
+                    <div class="ability py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Ability</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">My skills</h1>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-sm-6 pl-4">
+                            <p class="font-ram font-size-16 text-black-50 pb-3">
+                                I mainly specialize and focus on architecting solutions through two of the leading cloud platforms: Amazon Web Services (AWS) &amp; Google Cloud Platform (GCP).
+                                <br>
+                                <br>
+
+                                In AWS, my expertise dives the deepest. Key areas of my proficiency include:<br>
+                                Compute: EC2 for scalable computing power, ECS for streamlined container orchestration, and Lambda for serverless highly-scalable computing.<br>
+                                Storage: S3 for versatile object storage, EBS for efficient block storage solutions.<br>
+                                Data: RDS, DynamoDB, and Aurora for diverse database needs, Kenesis, Athena, Glue, and EMR for data ETL and analysis.<br>
+                                Networking: Amazon VPC, Direct Connect, and ELBs for reliable and secure connections.<br>
+                                Security and Identity: AWS IAM for secure access control and AWS KMS for encryption.
+                                <br>
+                                <br>
+                                With GCP, I have gained solid expertise in core services such as:<br>
+                                Compute: Google Compute Engine (GCE) for scalable virtual machines and Google Kubernetes Engine (GKE) for containerized applications.<br>
+                                Storage: Google Cloud Storage (GCS) for reliable object storage and Google Persistent Disk for block storage requirements.<br>
+                                Data: Google Cloud SQL, Firestore, and Bigtable for database needs as well BigQuery, Tableau, Python/R programming for analysis.<br>
+                                Networking: Google VPC, Cloud Load Balancing, and Cloud DNS for secure and efficient networking needs.<br>
+                                ML / AI: Familiar with Google AI Platform, TensorFlow, and AutoML for AI driven solutions.
+                                <br><br>
+                            </p>
+                            
+                            <ul class="list-inline dev-icons">
+                                <li class="list-inline-item">
+                                    <i class="fab fa-html5"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-css3-alt"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-brands fa-js"></i>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <i class="fab fa-brands fa-linux"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-brands fa-git"></i>
+                                </li>
+                                
+                                <li class="list-inline-item">
+                                    <i class="fab fa fa-cloud"></i>
+                                </li>
+                                
+                            </ul>
+                            <p class="font-ram font-size-16 text-black-50 pb-3">
+                                Additionally, I am fluent with HTML/CSS, JavaScript, and Linux. <br>
+                                Used frameworks/libraries like React and Vue. Familiar with GIT/Source control.<br>
+                                Analytics and management are a core part of my skillset. <br>
+                                Once again, my military training and experience have gained me an abundance of life skills that I will never take for granted. 
+                            </p>
+                        </div>                    
+                        <div class="col-sm-6 ">
+                            <img src="./aws.png" alt="aws" class="img-fluid mb-3" style="max-width:100%; height:auto">
+                            <img src="./gcp.png" alt="aws" class="img-fluid mb-3" style="max-width:100%; height:auto">
+                        </div>
+                        
+                    </div>
+                </section>
+                <!-- #ability -->
+
+
+                <!-- awards -->
+                <section class="awards px-4 py-5" id="awards">
+                    <div class="do py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">WHAT I HAVE AND WILL ACHIEVE </h5>
+                        <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-award"></i> Education &amp;
+                            Certifications</h1>
+                    </div>
+                    <div class="w-100">
+
+                        <ul class="fa-ul mb-0 font-ram font-size-16 text-black-50 pb-3">
+                            <li>
+                                <i class="fa-li fa fa-graduation-cap text-warning"></i>
+                                ***In Pursuit*** BSc - CLOUD COMPUTING - WESTERN GOVERNERS UNIVERSITY
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                AWS SOLUTIONS ARCHITECT ASSOCIATE CERTIFICATION (2023)
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                GOOGLE CLOUD ASSOCIATE ENGINEER CERTIFICATION (2023)
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                GOOGLE PROFESSIONAL DATA ANALYTICS CERTIFICATE (2023)
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                IBM FULL STACK SOFTWARE DEVELOPER PROFESSIONAL CERTIFCATE (2023)
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-graduation-cap text-warning"></i>
+                                
+                                ASSOCIATE OF APPLIED SCIENCE IN INTELLIGENCE STUDIES AND TECHNOLOGY - CCAF
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                
+
+
+                <!--footer-->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_us">
+                        <div class="row bg-light py-5">
+                            <div class="col-sm-4 my-5 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">&copy;2023 NEHeath
+                                </h6>
+                            </div>
+                            <div class="col-sm-4 my-4 text-center">
+                                <div class="footer-title">
+                                    <p class="description font-os font-size-16 text-black-50 text-uppercase">Come back later to see what changes I have made!
+                                    </p>
+                                </div>
+                             
+                            </div>
+                            <div class="social-icons col-sm-4 my-4 text-center">
+                                <a href="https://www.linkedin.com/in/neheath/" target="blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/n-e-heath" target="blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+    <script src="./typed.min.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
