@@ -5,9 +5,6 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 
 ## Architecture
 
-![Architecture Diagram](/img/AWS-Architecture-Cloud-resume-challenge.png)
-
-The steps include:
 - Deploy your resume as a S3 static website, use HTTPS and Amazon CloudFront.
 - Point a custom DNS domain name to your CloudFront Distribution.
 - Add a visitor Counter to your website using Javascript.
