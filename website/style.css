@@ -60,6 +60,7 @@ body{
 
 #header nav{
     height: 100vh;
+    
 }
 #header .site-title .navbar-brand{
     letter-spacing: 2px;
@@ -137,6 +138,9 @@ body{
     }
     #header{
         z-index:0;
+    }
+    .img-fluid {
+        min-height: 150px;
     }
 }
 
@@ -239,3 +243,10 @@ body{
     z-index: 999; /* Ensure it's above other elements */
   }
   
+/* CSS for AWS and GCP images */
+.aws-image,
+.gcp-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 275px; /* Set a maximum height to prevent excessive scaling */
+}
