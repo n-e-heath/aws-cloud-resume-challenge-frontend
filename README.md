@@ -11,7 +11,7 @@ What is the Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloud
 - Setup a DynamoDB database to log the visitor counter.
 - Create an API to communicate your javascript code with DynamoDB.
 - Create a Lambda function using Python, triggered by your API Gateway, that reads from the DynamoDB table and updates the visitor counter. Create tests for your Python code as well.
-- Write it all as Infrastructure as Code using Terraform.
+- Write it all as Infrastructure as Code using AWS SAM.
 - Setup two GitHub repositories, back-end and front-end, for your code and use GitHub actions to automate updates and deployment.
 
 
