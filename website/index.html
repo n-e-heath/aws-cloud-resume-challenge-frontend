@@ -10,7 +10,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" href="Heath_bar.png">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
             <div class="col-3 bgcolor-black">
                 <nav class="primary-nav navbar-expand-md">
                     <div class="site-title text-center text-light py-5">
-                        <a href="#" class="navbar-brand font-staat font-size-46">NOAH HEATH</a>
+                        <a href="#" class="navbar-brand font-staat" style="font-size: 30px;">NH</a>
                     </div>
                     <div class="d-flex flex-column">
                         <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
@@ -29,11 +29,14 @@
                         <a href="#experience" class="nav-item nav-link text-white-50 font-os font-size-16 active">Experience</a>
                         <a href="#services" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
                         <a href="#awards" class="nav-item nav-link text-white-50 font-os font-size-16 active">Qualifications</a>
+                        <a href="#projects" class="nav-item nav-link text-white-50 font-os font-size-16 active">Projects</a>
                         <br><br>
                     </div>
+                    <div class="counter-number"></div>
                     <div class="d-flex flex-column align-items-center py-5">
                         <button type="submit" onclick="window.open('./Heath-resume.pdf')" class="btn btn-dark text-uppercase mt-3 mb-3">Download CV</button>
                         <br><br>
+                        
                         <div class="social-icons">
                             <a href="https://www.linkedin.com/in/neheath/" target="_blank" class="mx-2">
                                 <i class="fab fa-linkedin-in"></i>
@@ -64,14 +67,14 @@
             <div class="col-md-9 offset-md-3 px-0">
 
                 <!-- site-banner area -->
-                <section class="site-banner bg-light" id="home">
+                <section class="site-banner " id="home">
                     <div class="banner-area">
-                        <div class="counter-number position-absolute top-0 start-50 translate-middle-x">loading...</div>
-
+                        
                         <div class="author text-center">
-                            <!--<div class="author-img"></div> -->
-                            <h1 style="font-size: 30px;">WELCOME TO MY DEBUT PORTFOLIO</h1>
-                            <br><br>
+                            <div class="author-img"></div>
+                            
+                            <h1 style="font-size: 30px;">NOAH HEATH</h1>
+                            <BR>
 
                             <h5 class="text-black font-ram font-size-27">I'm a <span id="typed"></span></h5>
                         </div>
@@ -81,16 +84,17 @@
 
                 <!-- about me area -->
                 <section class="about px-4 py-5"  id="about_me">
-                    <div class="me py-4">
+                    <div class="me py-3">
                         <h5 class="text-uppercase font-os font-size-16 text-muted">information</h5>
                         <h1 class="text-uppercase font-staat font-size-34">About Me</h1>
                     </div>
                     <div class="row m-0">
-                        <div class="col-sm-5 d-flex justify-content-center align-items-center">
-                            <img src="./banner.png" alt="profile image"  class="img-fluid" style="max-width:100%; height:auto; min-height:150px;">
+                        <div class="col-sm-6 d-flex justify-content-center align-items-center">
+                            <img src="./me.jpg" alt="profile image" class="img-fluid" style="max-width:100%; height:auto; max-height:500px ">
                         </div>
-                        <div class="col-sm-6">
-                            <h6 class="text-uppercase font-os font-size-16 text-muted">Hello</h6>
+                        
+                        <div class="col-md-5">
+                            <h6 class="text-uppercase font-os font-size-18 text-muted">Hello</h6>
                             <h5 class="font-ram font-size-20 py-2">I'm Noah & I am a<br> <span id="typed_2"></span></h5>
                             <p class="font-ram text-black-50 py-2">
                                 I'm deeply engaged in the ever-evolving realm of cloud computing. 
@@ -115,40 +119,40 @@
 
                 <!-- experience area -->
                 <section class="experience px-4 py-5 bg-light" id="experience">
-                    <div class="do py-5">
-                        <h1 class="text-uppercase font-staat font-size-34">PREVIOUS EXPERIENCE</h1>
+                    <div class="py-3">
+                        <h1 class="text-uppercase font-staat font-size-34">PROFESSIONAL EXPERIENCE</h1>
                     </div>
-                    <div>
-                        <h2 class="font-ram text-uppercase text-black font-staat font-size-20">Cloud Engineer Intern</h2>
-                        <h4 class="font-ram text-uppercase text-black-50 font-staat ">Allegiant Giving</h4>
-                        <p class="font-ram text-black-50">
-                            July 2023 to January 2024
-                        </p>
-                        <p class="font-ram font-size-16 text-black-50">
-                            Embraced a game-changing remote Department of Defense Skillbridge internship via Allegiant Giving, delving headfirst into Cloud Engineering.  In those almost 600 immersive hours, I was able to get a good grasp on the “cloud”. While fine-tuning my cloud computing skills, I also became adept at acing remote work, handling it flawlessly. This experience expanded my expertise in data analytics, security best practices, and database-driven applications, setting the stage for an exciting Cloud Engineering career.                            <!-- Add more relevant details as needed -->
-                        <p>
-                    </div>
+                    
+                    <div class="row">
 
-                    <div>
-                        <h2 class="font-ram text-uppercase text-black font-staat">Intelligence Data Analyst</h2>
-                        <h5 class="font-ram text-uppercase text-black-50 font-staat">NSA-Georgia</h5>
-                        <p class="font-ram text-black-50">
-                            May 2022 to July 2023
-                        </p>
-                        <p class="font-ram font-size-16 text-black-50">
-                            Geeked out analyzing communication signals, diving deep into tech and data analysis. Used fancy software to pull and play with data. Crafted cool reports on Signals Intelligence (SIGINT) data, spotting signals and quirks. Made sure our databases were top-notch per DoD standards. Shared juicy insights to help the intel community and commanders make savvy decisions.                       
-                         </p>
-                    </div>
+                        <div class="col-md-10">
+                            <div>
+                                <h2 class="font-ram text-uppercase text-black font-staat font-size-20 pt-3">Cloud Engineer Intern</h2>
+                                <h4 class="font-ram text-black font-staat ">Allegiant Giving | <em>July 2023 - January 2024</em></h4>
+                                
+                                <p class="font-ram font-size-18 text-black-50">
+                                    Embraced a game-changing remote Department of Defense Skillbridge internship via Allegiant Giving, delving headfirst into Cloud Engineering.  In those almost 600 immersive hours, I was able to get a good grasp on the “cloud”. While fine-tuning my cloud computing skills, I also became adept at acing remote work, handling it flawlessly. This experience expanded my expertise in data analytics, security best practices, and database-driven applications, setting the stage for an exciting Cloud Engineering career.                            <!-- Add more relevant details as needed -->
+                                <p>
+                            </div>
 
-                    <div>
-                        <h2 class="font-ram text-uppercase text-black font-staat">Analyst/Operator</h2>
-                        <h5 class="font-ram text-uppercase text-black-50 font-staat">NSA-Georgia</h5>
-                        <p class="font-ram text-black-50">
-                            January 2019 to April 2022
-                        </p>
-                        <p class="font-ram font-size-16 text-black-50">
-                            Pivotal member of a team that bridged real time Air Force and NSA intel for the troops on the ground. Handled plenty of critical missions, reports, and thwarted enemy actions, safeguarding valuable aircraft and crew. Maintained synchronization for our deployed team with national support while sharing vital insights into enemy behavior. Additionally, I spearheaded top-tier training to keep our squad at peak readiness.                        
-                        </p>
+                            <div>
+                                <h2 class="font-ram text-uppercase text-black font-staat font-size-20 pt-3">Intelligence Data Analyst</h2>
+                                <h5 class="font-ram  text-black font-staat">NSA-Georgia | <em>May 2022 - July 2023</em></h5>
+                                
+                                <p class="font-ram font-size-18 text-black-50">
+                                    Geeked out analyzing communication signals, diving deep into tech and data analysis. Used fancy software to pull and play with data. Crafted cool reports on Signals Intelligence (SIGINT) data, spotting signals and quirks. Made sure our databases were top-notch per DoD standards. Shared juicy insights to help the intel community and commanders make savvy decisions.                       
+                                </p>
+                            </div>
+
+                            <div>
+                                <h2 class="font-ram text-uppercase text-black font-staat pt-4 font-size-20">Analyst / Operator</h2>
+                                <h5 class="font-ram 8 text-black font-staat">NSA-Georgia | <em>January 2019 - April 2022</em></h5>
+                                
+                                <p class="font-ram font-size-18 text-black-50">
+                                    Pivotal member of a team that bridged real time Air Force and NSA intel for the troops on the ground. Handled plenty of critical missions, reports, and thwarted enemy actions, safeguarding valuable aircraft and crew. Maintained synchronization for our deployed team with national support while sharing vital insights into enemy behavior. Additionally, I spearheaded top-tier training to keep our squad at peak readiness.                        
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <!-- experience area -->
@@ -160,7 +164,7 @@
                         <h1 class="text-uppercase font-staat font-size-34">My skills</h1>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 pl-4">
+                        <div class="col-sm-10 pl-4">
                             <p class="font-ram font-size-16 text-black-50 pb-3">
                                 I specialize in architecting solutions through two leading cloud platforms: Amazon Web Services (AWS) & Google Cloud Platform (GCP).
                             </p>
@@ -180,7 +184,7 @@
                                 <li>Storage: GCS, Google Persistent Disk</li>
                                 <li>Data: Google Cloud SQL, Firestore, Bigtable, BigQuery</li>
                                 <li>Networking: Google VPC, Cloud Load Balancing, Cloud DNS</li>
-                                <li>ML/AI: Google AI Platform, TensorFlow, AutoML</li>
+                                
                             </ul>
                             <!-- Additional skills summary -->
                             <p class="font-ram font-size-16 text-black-50 pb-3">
@@ -189,8 +193,7 @@
                                 Utilzed frameworks/libraries like React and Vue. Familiar with GIT/Source control.
                                 <br>
                                 Analytics and management are core parts of my skillset. 
-                                <br>
-                                Last but not least, my military training and experience have given me an abundance of life skills that I value greatly.
+                                
                             </p>
                             <!-- Icons -->
                             <ul class="list-inline dev-icons">
@@ -226,7 +229,7 @@
 
                 <!-- awards -->
                 <section class="awards px-4 py-5 bg-light" id="awards">
-                    <div class="do py-5">
+                    <div class="do py-3">
                         <h5 class="text-uppercase font-os font-size-16 text-muted">WHAT MAKES ME QUALIFIED? </h5>
                         <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-award"></i> Education &amp;
                             Certifications</h1>
@@ -267,9 +270,48 @@
                         </ul>
                     </div>
                 </section>
+                <!-- awards -->
 
+                <!--projects-->
+
+                <section class="projects py-5 px-4" id="projects">
+                    <div class="py-3">
+                        <h1 class="text-uppercase font-staat font-size-34"> Deliverables</h1>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-md-6 py-3" >
+                            <p class="font-ram text-black  font-size-20" style="text-align: center;">Serverless Website</p>
+                                <p class="project-description font-ram font-size-16 text-black-50 pb-3">
+                                    This project was a direct response to the Cloud Resume Challenge by Forrest Brazeal. The challenge calls for a dynamic portfolio website deployed on AWS, integrating various services and technologies:
+                                    <br><br>
+                                    <em>p.s. You are in the project right now if you couldn't already tell</ps>
+                                </p>
+                                <ul class="project-details font-ram font-size-16 text-black-50 pb-3">
+                                    <li>Website Development: A portfolio website was rapidly established using an HTML/CSS template. The focus was on functionality rather than design intricacies.</li>
+                                    <li>S3 Integration: Amazon S3 served as the file storage solution for the website, ensuring accessibility and scalability with ease.</li>
+                                    <li>Security Enhancement: Utilizing Amazon CloudFront for traffic routing and implementing HTTPS via AWS Certificate Manager fortified the website's security posture.</li>
+                                    <li>Visitor Tracking: Implemented a JavaScript-based visitor counter, stored data in DynamoDB, and created an API-Lambda ecosystem for real-time updates.</li>
+                                    <li>Infrastructure as Code (IaC): Overcoming initial hesitancy, employed AWS SAM for defining infrastructure, minimizing manual console interactions, and enabling consistent deployment.</li>
+                                    <li>Source Control & CI/CD: Leveraging separate GitHub repositories for frontend and backend allowed for streamlined version control. Continuous integration and deployment via GitHub actions automated testing and deployment processes.</li>
+                                </ul>
+                        </div>
+                        <div class="frame col-md-6" style="max-width: 40%;">
+                            <a href="https://resume.ne-heath.com"><img src="./resume.png" title="Serverless Website"
+                                    alt="project1" class="img-fluid" style=" height:auto; max-width:100%;"></a>
+                            <div class="details">
+                                <h2>Serverless Website</h2>
+                                <p><a href="https://resume.ne-heath.com" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a></p>
+                                <p><a href="https://github.com/n-e-heath/aws-cloud-resume-challenge-frontend" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                                <p><a href="https://dev.to/neheath/aws-cloud-resume-challenge-my-first-project-1j93" title="Blog Post"><i
+                                            class="fa fa-solid fa-blog eye"></i></a></p>
+                            </div>
+                        </div>                                        
+                    </div>
+                </section>
                 
-
+                <!--projects-->
 
                 <!--footer-->
                 <footer id="footer" class="pt-5 px-3">
@@ -279,7 +321,7 @@
                                 <h6 class="font-ram font-size-16 text-black-50">&copy;2023 NEHeath
                                 </h6>
                             </div>
-                            <div class="col-sm-4 my-4 text-center">
+                            <div class="col-sm-4 my-4 text-center py-4">
                                 <div class="footer-title">
                                     <p class="description font-os font-size-16 text-black-50 text-uppercase">Come back later to see what changes I have made!
                                     </p>
