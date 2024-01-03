@@ -56,6 +56,7 @@ body{
     width: 100%;
     z-index:2;
     transition: left .5s ease;
+    height: 100vh;
 }
 
 #header nav{
@@ -71,6 +72,7 @@ body{
     margin: .7rem 1rem;
     border-bottom: 1px solid var(--color-border);
     text-transform: uppercase;
+    
 }
 
 #header .nav-link:hover{
@@ -110,12 +112,12 @@ body{
 }
 
 .site-banner .banner-area .author .author-img{
-    width: 420px;
-    height: 420px;
+    width: 600px;
+    height: 600px;
    
     margin: auto;
     background: url(./landing.jpg) no-repeat;
-    background-size: 110%;
+    background-size: cover;
     background-position: 40% 0;
 }
 
@@ -148,8 +150,34 @@ body{
     .bgcolor-black {
         background-color: rgba(0, 0, 0, 0.95); /* Adjust the alpha value for transparency */
     }
+    .cloud {
+        min-width: 100%;
+    }
+
 }
 
+.gcp-cert {
+    height: 90px;
+    width: 90px;
+    margin:15px;
+
+}
+
+.ccaf {
+    height: 90px;
+    width: 95px;
+    margin:15px;
+
+}
+
+.ibm-cert {
+    height: 70px;
+    width: 90px;
+    margin:15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
 
 #typed{
     color: var(--color-blue);
@@ -189,7 +217,10 @@ body{
   
   .dev-icons .list-inline-item :hover {
     color: var(--color-blue);
+
   }
+
+
   /*icons*/
 
 
@@ -229,14 +260,24 @@ body{
 .frame {
 
   text-align: center;
-  position: relative;
+  justify-content: center;
+  
   cursor: pointer;
-  perspective: 500000px;
-  margin: 10px; /* Add margins to create space */
+  perspective: 5000px;
+  
+}
+
+.project-details {
+    list-style-type:disc;
+    padding: 1;
+    margin-bottom: 15px;
+}
+.project-details li {
+    padding: 10px
 }
 
 .frame .details {
-  width: 100%; /* Adjust this width */
+  width: 100%; 
   height: 100%;
   padding: 5% 8%;
   position: absolute;
@@ -245,18 +286,23 @@ body{
   left: 50%;
   transform: translate(-50%, -50%) rotateY(90deg);
   transform-origin: 50%;
-  background: var(--color-blue);
+  background: var(--color-black);
   opacity: 0;
   transition: all 0.2s ease-in;
   color: var(--color-white);
   font-family: var(--font-ram);
+  border-radius: 70px; /* Adding rounded corners */
+  display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the items */
+    align-items: center; /* Horizontally centers the items */
+  
 }
 
 .frame:hover .details {
   transform: translate(-50%, -50%) rotateY(0deg);
   opacity: 1;
 }
-
 
 
 
