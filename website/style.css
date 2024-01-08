@@ -54,7 +54,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    z-index:100;
+    z-index:2;
     transition: left .5s ease;
     }
 
@@ -138,7 +138,7 @@ body{
         display: none;
     }
     #header{
-        z-index:100;
+        z-index:0;
     }
     .img-fluid {
         min-height: 150px;
@@ -325,7 +325,7 @@ body{
     text-align: center;
     
    
-    z-index: 98; /* Ensure it's above other elements */
+    z-index: 999; /* Ensure it's above other elements */
   }
   
   /* Border-bottom for Separation */

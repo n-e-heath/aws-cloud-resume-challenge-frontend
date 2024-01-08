@@ -26,6 +26,7 @@ $(document).ready(function (e) {
         if ($win.width() <= 768 && $navbar.hasClass('toggle-left')) {
             if (!$(event.target).closest('#header').length && !$toggle.is(event.target)) {
                 $navbar.removeClass('toggle-left');
+                $navbar.css({ 'z-index': '10' }); // Reset z-index when closing the menu
             }
         }
     });
