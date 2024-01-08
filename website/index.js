@@ -14,6 +14,22 @@ $(document).ready(function (e) {
         $navbar.toggleClass("toggle-left");
     })
 
+    // Event listener for clicking menu items
+    $('.primary-nav .nav-item').on('click', function() {
+        if ($win.width() <= 768) {
+            $navbar.removeClass('toggle-left'); // Close the menu on selection
+        }
+    });
+
+    // Event listener for clicking outside the menu
+    $(document).on('click', function(event) {
+        if ($win.width() <= 768 && $navbar.hasClass('toggle-left')) {
+            if (!$(event.target).closest('#header').length && !$toggle.is(event.target)) {
+                $navbar.removeClass('toggle-left');
+            }
+        }
+    });
+
 });
 
 function toggle_onclick($win, $navbar, width) {
