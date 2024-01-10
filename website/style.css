@@ -149,7 +149,7 @@ body{
     .bgcolor-black {
         background-color: rgba(0, 0, 0, 0.95); /* Adjust the alpha value for transparency */
     }
-    .cloud {
+    .proj-img {
         min-width: 100%;
     }
 
@@ -255,6 +255,17 @@ body{
 } 
 
 */
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.project img {
+    max-width: 100%; /* Ensures the image won't stretch beyond its natural size */
+    height: auto; /* Maintains aspect ratio */
+}
 
 .frame {
 
@@ -277,6 +288,7 @@ body{
 
 .frame .details {
   width: 100%; 
+  min-height: 400px;
   height: 100%;
   padding: 5% 8%;
   position: absolute;
