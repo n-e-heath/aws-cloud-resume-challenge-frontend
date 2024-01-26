@@ -310,6 +310,8 @@ body{
   
 }
 
+
+
 .frame:hover .details {
   transform: translate(-50%, -50%) rotateY(0deg);
   opacity: 1;
