@@ -45,8 +45,6 @@ var typed = new Typed('#typed', {
     strings: [
         'Cloud Computing Enthusiast',
         'Network Specialist',
-        'Husband',
-        'Father',
         'USAF Veteran'
     ],
     typeSpeed: 50,
@@ -57,8 +55,7 @@ var typed = new Typed('#typed', {
 var typed_2 = new Typed('#typed_2', {
     strings: [
         'Cloud Enthusiast',
-        'CoD Gamer',
-        'Husband and Father',
+        'Network Specialist',
         'USAF Vet'
     ],
     typeSpeed: 50,
